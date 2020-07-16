@@ -1,3 +1,6 @@
+# Py3calc
+Simple W.I.P opensource calculator with python!
+
 Please use python 3 very important
 
 Simple please follow the instrucions on screen carefully before you contact me at

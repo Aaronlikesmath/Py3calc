@@ -80,10 +80,9 @@ def ttpo():
 
 #PDB2N
 def pdb2n():
-    PD1 = NUM1 - NUM2
-    PD2 = NUM1 + NUM2
-    PD3 = (PD1 / PD1) / 2
-    REPD = PD3 * 100
+    PD1 = NUM2 * 100
+    PD2 = PD1 / NUM1
+    REPD = PD2 - 100
     print (REPD)
 
 
@@ -109,6 +108,6 @@ def main():
         "ttpo" : ttpo,
         "pdb2n" : pdb2n,
         "dis" : dis,
-    }[select.casefold()]()
+    }[select.casefold()]    ()
 
 main()

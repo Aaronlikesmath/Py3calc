@@ -108,6 +108,6 @@ def main():
         "ttpo" : ttpo,
         "pdb2n" : pdb2n,
         "dis" : dis,
-    }[select.casefold()]    ()
+    }[select.casefold()]()
 
 main()
